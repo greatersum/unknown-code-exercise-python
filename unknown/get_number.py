@@ -11,7 +11,7 @@ def situation_one(i):
 
 
 def situation_three(i):
-    return i == get_number(i - 1) + get_number(i - (special_number + 2))
+    return get_number(i - 1) + get_number(i - (special_number + 2))
 
 
 def situation_two(i):
